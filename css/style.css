@@ -49,6 +49,11 @@ header nav ul li a{
 header nav ul li{
     margin-right: 10px;
     margin-bottom: 5px;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover{
+    color: blue;
 }
 
 /* ---------- MAIN ----------- */
@@ -97,6 +102,11 @@ header nav ul li{
     box-shadow: 5px 5px 33px -9px rgba(0,0,0,0.9);
     -webkit-box-shadow: 5px 5px 33px -9px rgba(0,0,0,0.9);
     -moz-box-shadow: 5px 5px 33px -9px rgba(0,0,0,0.9);
+    transition: 1s;
+}
+
+.productos .tarjetas div:hover{
+    transform: scale(1.1) ;
 }
 
 .productos .tarjetas div img{
@@ -111,6 +121,11 @@ header nav ul li{
     color: white;
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
+    transition: 0.5s;
+}
+
+.productos .tarjetas a:hover{
+    background-color: blue;
 }
 
 .productos h2{
