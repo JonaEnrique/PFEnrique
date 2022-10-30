@@ -98,7 +98,7 @@ header nav ul li a:hover{
     flex-wrap: wrap;
 }
 
-.productos .tarjetas div{
+.productos .tarjetas .card{
     text-align: center;
     border: 3px solid #2c88d9;
     border-radius: 15px;
@@ -128,11 +128,11 @@ header nav ul li a:hover{
 }
 
 
-.productos .tarjetas div:hover{
+.productos .tarjetas .card:hover{
     transform: scale(1.1) ;
 }
 
-.productos .tarjetas div img{
+.productos .tarjetas .card img{
     width: 250px;
     height: 300px;
     border-radius: 15px 15px 0 0;
@@ -157,7 +157,7 @@ header nav ul li a:hover{
     margin-left: 20px;
 }
 
-.productos h3{
+.productos .card__texto{
     margin: 10px;
 }
 
@@ -182,7 +182,7 @@ header nav ul li a:hover{
     margin-bottom: 30px;
 }
 
-.grid-galeria div img{
+.grid-galeria .grid-item img{
     width: 100%;
     height: 100%;
 
@@ -202,11 +202,6 @@ header nav ul li a:hover{
 }
 
 /* Nosotros */
-
-.nosotros{
-    width: 100%;
-    height: calc(100vh - 135px - 69px);
-}
 
 .historia h2{
     font-size: 80px;
