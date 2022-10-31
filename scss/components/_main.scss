@@ -2,7 +2,7 @@
 
 main {
 
-    /* Incio */
+    /* Inicio */
 
     .hero {
         background-image: url("../img/pexels-pixabay-159711.jpg");
@@ -135,6 +135,40 @@ main {
         }
     }
 
+    /* Vender y contacto*/
+
+    .formGeneral {
+        display: flex;
+        justify-content: center;
+
+        .formulario {
+            color: #2c88d9;
+            width: 400px;
+            margin: 30px 0px 30px 0px;
+            text-align: center;
+            border: 3px solid #2c88d9;
+            border-radius: 5px;
+
+            h2 {
+                font-size: 80px;
+            }
+
+
+            form {
+                .datos {
+                    width: 90%;
+                    margin: 2px;
+                    border-radius: 5px;
+                    border-color: #2c88d9;
+                }
+
+                .botones {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+
     /* Nosotros*/
 
     .historia {
@@ -168,29 +202,6 @@ main {
 
         div {
             width: 250px;
-        }
-    }
-
-    /* contacto */
-
-    .formulario {
-        width: 400px;
-        padding: 0px 20px 20px 20px;
-        margin: 50px 0px 50px 550px;
-        text-align: center;
-        border: 3px solid #2c88d9;
-        border-radius: 5px;
-
-        h2 {
-            font-size: 80px;
-        }
-
-        form {
-            .datos {
-                width: 100%;
-                border-radius: 5px;
-                border-color: #2c88d9;
-            }
         }
     }
 }

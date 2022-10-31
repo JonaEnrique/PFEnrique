@@ -239,12 +239,12 @@ header nav ul li a:hover{
 
 /* Vender */
 
-.formVentas{
+.formGeneral{
     display: flex;
     justify-content: center;
 }
 
-.formVentas .formulario .botones{
+.formGeneral .formulario .botones{
     margin-bottom: 10px;
 }
 
@@ -253,7 +253,7 @@ header nav ul li a:hover{
 .formulario{
     color: #2c88d9;
     width: 400px;
-    margin: 10px 0px 10px 0px;
+    margin: 30px 0px 30px 0px;
     text-align: center;
     border: 3px solid #2c88d9;
     border-radius: 5px;
@@ -323,6 +323,19 @@ footer div img{
         grid-column: span 1;
         grid-row: 1;
     }
+
+    .formulario{
+        width: 300px;
+    }
+
+    .formulario h2{
+        font-size: 60px;
+    }
+
+    .formulario .datos{
+        width: 60%;
+    }
+
 }
 
 @media screen and (max-width: 810px){
