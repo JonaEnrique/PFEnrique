@@ -239,13 +239,21 @@ header nav ul li a:hover{
 
 /* Vender */
 
+.formVentas{
+    display: flex;
+    justify-content: center;
+}
+
+.formVentas .formulario .botones{
+    margin-bottom: 10px;
+}
 
 /* contacto */
 
 .formulario{
+    color: #2c88d9;
     width: 400px;
-    padding: 0px 20px 20px 20px;
-    margin: 50px 0px 50px 550px;
+    margin: 10px 0px 10px 0px;
     text-align: center;
     border: 3px solid #2c88d9;
     border-radius: 5px;
@@ -256,7 +264,8 @@ header nav ul li a:hover{
 }
 
 .datos{
-    width: 100%;
+    width: 90%;
+    margin: 2px;
     border-radius: 5px;
     border-color: #2c88d9;
 }
