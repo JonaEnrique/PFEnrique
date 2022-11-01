@@ -1,0 +1,16 @@
+// Variables
+
+$color-principal: #2c88d9;
+$color-transition: blue;
+
+// mixin
+
+@mixin flex ($flex, $justify){
+    display: $flex;
+    justify-content: $justify;
+}
+
+@mixin wae ($width, $height){ // width and height
+    width: $width;
+    height: $height;
+}

@@ -1,9 +1,10 @@
+@import "../base/variables";
 
 /* ---------- HEADER ----------- */
 
 header {
     nav {
-        background-color: #2c88d9;
+        background-color: $color-principal;
         position: sticky;
         top: 0;
         display: flex;
@@ -49,7 +50,7 @@ header {
                     color: white;
 
                     &:hover {
-                        color: blue;
+                        color: $color-transition;
                     }
                 }
             }

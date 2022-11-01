@@ -45,9 +45,9 @@ header nav {
 
 /* ---------- MAIN ----------- */
 main {
-  /* Incio */
-  /* Nosotros*/
-  /* contacto */ }
+  /* Inicio */
+  /* Vender y contacto*/
+  /* Nosotros*/ }
   main .hero {
     background-image: url("../img/pexels-pixabay-159711.jpg");
     width: 100%;
@@ -126,6 +126,25 @@ main {
       grid-row: span 2; }
     main .grid-galeria .libro1 {
       grid-row: span 2; }
+  main .formGeneral {
+    display: flex;
+    justify-content: center; }
+    main .formGeneral .formulario {
+      color: #2c88d9;
+      width: 400px;
+      margin: 30px 0px 30px 0px;
+      text-align: center;
+      border: 3px solid #2c88d9;
+      border-radius: 5px; }
+      main .formGeneral .formulario h2 {
+        font-size: 80px; }
+      main .formGeneral .formulario form .datos {
+        width: 90%;
+        margin: 2px;
+        border-radius: 5px;
+        border-color: #2c88d9; }
+      main .formGeneral .formulario form .botones {
+        margin-bottom: 10px; }
   main .historia {
     color: #2c88d9; }
     main .historia h2 {
@@ -145,19 +164,6 @@ main {
     margin-bottom: 20px; }
     main .ubicacion div {
       width: 250px; }
-  main .formulario {
-    width: 400px;
-    padding: 0px 20px 20px 20px;
-    margin: 50px 0px 50px 550px;
-    text-align: center;
-    border: 3px solid #2c88d9;
-    border-radius: 5px; }
-    main .formulario h2 {
-      font-size: 80px; }
-    main .formulario form .datos {
-      width: 100%;
-      border-radius: 5px;
-      border-color: #2c88d9; }
 
 /* ---------- FOOTER ----------- */
 footer {
@@ -195,7 +201,13 @@ footer {
     grid-template-columns: 1fr; }
   main .grid-galeria .grid-tem {
     grid-column: span 1;
-    grid-row: 1; } }
+    grid-row: 1; }
+  main .formGeneral .formulario {
+    width: 300px; }
+  main .formGeneral .formulario h2 {
+    font-size: 60px; }
+  main .formGeneral .formulario .datos {
+    width: 60%; } }
 
 @media screen and (max-width: 810px) {
   header nav {

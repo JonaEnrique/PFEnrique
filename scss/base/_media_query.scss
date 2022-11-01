@@ -18,22 +18,22 @@
         grid-template-columns: 1fr;
     }
 
-    // main .grid-galeria .grid-tem{
-    //     grid-column: span 1;
-    //     grid-row: 1;
-    // }
+    main .grid-galeria .grid-tem{
+        grid-column: span 1;
+        grid-row: 1;
+    }
 
-    // main .formGeneral .formulario{
-    //     width: 300px;
-    // }
+    main .formGeneral .formulario{
+        width: 300px;
+    }
 
-    // main .formGeneral .formulario h2{
-    //     font-size: 60px;
-    // }
+    main .formGeneral .formulario h2{
+        font-size: 60px;
+    }
 
-    // main .formGeneral .formulario .datos{
-    //     width: 60%;
-    // }
+    main .formGeneral .formulario .datos{
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 810px){

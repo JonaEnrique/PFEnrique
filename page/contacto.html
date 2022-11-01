@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Los mejores libros a los mejores precios">
+    <meta name="keywords" content="Libro, Paginas, Resumen, Sinopsis, Libreria, Biblioteca, Novela, Obra"
+    <meta property="og:type" content="Web site">
+    <meta property="og:type" content="MercadoLibro | Los mejores libros">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="shortcut icon" href="../img/logoMercadoLibro.png">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>MercadoLibro</title>
 </head>
 
@@ -28,42 +32,44 @@
         </nav>
     </header>
     <main>
-        <section class="formulario">
-            <h2>Formulario</h2>
-            <form action="">
-                <input type="text" placeholder="Ingrese su nombre" class="datos">
-                <input type="email" placeholder="Ingrese su email" class="datos">
-                <input type="password" placeholder="Contraseña" class="datos">
-                <input type="password" placeholder="Confirme contraseña" class="datos">
-                <div>
-                    <h3>Genero</h3>
+        <section class = "formGeneral">
+            <section class="formulario">
+                <h2>Formulario</h2>
+                <form action="">
+                    <input type="text" placeholder="Ingrese su nombre" class="datos">
+                    <input type="email" placeholder="Ingrese su email" class="datos">
+                    <input type="password" placeholder="Contraseña" class="datos">
+                    <input type="password" placeholder="Confirme contraseña" class="datos">
                     <div>
-                        <label for="masculino">Masculino</label>
-                        <input type="radio" name="masculino">
-
-                        <label for="femenino">Femenino</label>
-                        <input type="radio" name="femenino">
-
-                        <label for="otro">Otro</label>
-                        <input type="radio" name="otro">
+                        <h3>Genero</h3>
+                        <div>
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" name="masculino">
+    
+                            <label for="femenino">Femenino</label>
+                            <input type="radio" name="femenino">
+    
+                            <label for="otro">Otro</label>
+                            <input type="radio" name="otro">
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <select name="select"> Pais
-                        <option value="">Argentina</option>
-                        <option value="">Brasil</option>
-                        <option value="">Colombia</option>
-                    </select>
-                </div>
-                <div>
-                    <h3>Escrbir un comentario</h3>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar formulario">
-                    <input type="reset" value="Borrar">
-                </div>
-            </form>
+                    <div>
+                        <select name="select"> Pais
+                            <option value="">Argentina</option>
+                            <option value="">Brasil</option>
+                            <option value="">Colombia</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h3>Escrbir un comentario</h3>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar formulario">
+                        <input type="reset" value="Borrar">
+                    </div>
+                </form>
+            </section>
         </section>
     </main>
     <footer>
